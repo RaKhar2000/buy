@@ -1,29 +1,3 @@
-#os.system("pkg install espeak")
-#-----------------[ RaKhar-King ]-------------------#
- 
-import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64
-from rich.table import Table as me
-from rich.console import Console as sol
-from bs4 import BeautifulSoup as sop
-from concurrent.futures import ThreadPoolExecutor as tred
-from rich.console import Group as gp
-from rich.panel import Panel as nel
-from rich.markdown import Markdown as mark
-from rich.columns import Columns as col
-from rich import pretty
-from rich.text import Text as tekz
-from time import localtime as lt
-pretty.install()
-CON=sol()
- #------------------[ Rakhar-King ]-------------------#
-import os, platform, time, sys
-print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
-time.sleep(5)
-os.system('clear')
-print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY SCRIPT GIFT GROUP")
-time.sleep(2)
-os.system(f'xdg-open https://www.facebook.com/profile.php?id=100089570566394')
 import os, sys, time, random, string, uuid, subprocess, json, base64, threading, urllib, socket
 from concurrent.futures import ThreadPoolExecutor as Th
 
