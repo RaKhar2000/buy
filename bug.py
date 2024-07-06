@@ -6,9 +6,6 @@ if user_key in key_data:
 else:
     print("Your Key Not Approval\n")
     print(f"Your Key: {user_key}")
-    import os, sys, time, random, string, uuid, subprocess, json, base64, threading, urllib, socket
-from concurrent.futures import ThreadPoolExecutor as Th
-
 try: import requests
 except:
     os.system('pip install requests')
