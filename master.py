@@ -1,20 +1,4 @@
-import os
-import re
-import sys
-import uuid
-import time
-import json
-import zlib
-import socket
-import random
-import urllib
-import string
-import base64
-import platform
-import requests
-from bs4 import BeautifulSoup as bs
-from concurrent.futures import ThreadPoolExecutor as Th
-from requests.exceptions import ConnectionError as err
+
 
 os.system("git pull")
 
